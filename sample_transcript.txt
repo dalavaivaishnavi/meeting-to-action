@@ -1,0 +1,9 @@
+Priya: Okay, let's start. Main topics today are the app launch and the pricing page.
+Rahul: The beta feedback is mostly positive. Login is slow though, someone should look into that.
+Priya: Agreed. Let's decide to launch on the 15th of November, no further delay.
+Rahul: I'll finalize the release notes by this Friday.
+Anita: I can update the pricing page, probably next week sometime.
+Priya: Good. We should also think about a referral program. Maybe explore that after launch.
+Anita: Also, Dev needs to send the beta testers a thank-you email before the launch.
+Priya: Right. Rahul, please set up the server load test by 5th November, it's high priority.
+Priya: We'll reconvene on Monday to check progress.

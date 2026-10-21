@@ -1,0 +1,11 @@
+case,expected,found,matched,owner_ok,deadline_ok
+clear_basic,3,2,2,2,2
+vague_owners,4,4,4,4,4
+no_tasks,0,0,0,0,0
+multiple_deadlines,4,4,4,4,4
+relative_dates,3,3,3,3,3
+ambiguous_deadlines,3,3,3,3,3
+urgent_incident,2,2,2,2,2
+small_talk_noise,2,2,2,2,2
+task_reassigned,2,2,2,2,2
+decision_heavy,1,1,1,1,1

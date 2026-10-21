@@ -1,0 +1,270 @@
+[
+  {
+    "id": "clear_basic",
+    "meeting_date": "2026-10-19",
+    "transcript": "Maya: Let's review the website redesign. Sam, can you send the wireframes to the client by Friday?\nSam: Yes, I'll send them by Friday.\nMaya: Great. Lena, please update the project budget sheet by October 28.\nLena: Will do.\nMaya: I'll book the review call with the client for next Monday.",
+    "tasks": [
+      {
+        "keywords": [
+          "wireframe"
+        ],
+        "owner": "Sam",
+        "deadline": "2026-10-23",
+        "should_flag": false
+      },
+      {
+        "keywords": [
+          "budget"
+        ],
+        "owner": "Lena",
+        "deadline": "2026-10-28",
+        "should_flag": false
+      },
+      {
+        "keywords": [
+          "call",
+          "book"
+        ],
+        "owner": "Maya",
+        "deadline": "2026-10-26",
+        "should_flag": false
+      }
+    ]
+  },
+  {
+    "id": "vague_owners",
+    "meeting_date": "2026-10-19",
+    "transcript": "Raj: The checkout page crashes sometimes. Someone needs to look into it.\nTina: Yeah, and we need to rewrite the FAQ before the launch.\nRaj: I'll prepare the launch checklist by October 30.\nTina: Let's also get quotes from vendors. Not sure who should handle that.",
+    "tasks": [
+      {
+        "keywords": [
+          "checkout",
+          "crash"
+        ],
+        "owner": null,
+        "deadline": null,
+        "should_flag": true
+      },
+      {
+        "keywords": [
+          "faq"
+        ],
+        "owner": null,
+        "deadline": null,
+        "should_flag": true
+      },
+      {
+        "keywords": [
+          "checklist"
+        ],
+        "owner": "Raj",
+        "deadline": "2026-10-30",
+        "should_flag": false
+      },
+      {
+        "keywords": [
+          "quote",
+          "vendor"
+        ],
+        "owner": null,
+        "deadline": null,
+        "should_flag": true
+      }
+    ]
+  },
+  {
+    "id": "no_tasks",
+    "meeting_date": "2026-10-19",
+    "transcript": "Chris: Quick sync. The server migration finished last week with no issues.\nDana: Great. Customer tickets are down 12 percent.\nChris: Good news all round. Nothing else from me.",
+    "tasks": []
+  },
+  {
+    "id": "multiple_deadlines",
+    "meeting_date": "2026-10-19",
+    "transcript": "Owen: For the conference, Priya will finalize the speaker list by November 2.\nPriya: Yes. And Marco, please confirm the venue contract by tomorrow.\nMarco: I'll do that. I'll also order the banners by November 6.\nOwen: I'll send the invitations once the speaker list is final.",
+    "tasks": [
+      {
+        "keywords": [
+          "speaker list"
+        ],
+        "owner": "Priya",
+        "deadline": "2026-11-02",
+        "should_flag": false
+      },
+      {
+        "keywords": [
+          "venue"
+        ],
+        "owner": "Marco",
+        "deadline": "2026-10-20",
+        "should_flag": false
+      },
+      {
+        "keywords": [
+          "banner"
+        ],
+        "owner": "Marco",
+        "deadline": "2026-11-06",
+        "should_flag": false
+      },
+      {
+        "keywords": [
+          "invitation"
+        ],
+        "owner": "Owen",
+        "deadline": null,
+        "should_flag": true
+      }
+    ]
+  },
+  {
+    "id": "relative_dates",
+    "meeting_date": "2026-10-19",
+    "transcript": "Ana: Ben, send the revised proposal to the board by Thursday.\nBen: Will do.\nAna: Carla, please share the survey results tomorrow.\nCarla: Okay, tomorrow.\nAna: I'll send out the board meeting agenda by October 29.",
+    "tasks": [
+      {
+        "keywords": [
+          "proposal"
+        ],
+        "owner": "Ben",
+        "deadline": "2026-10-22",
+        "should_flag": false
+      },
+      {
+        "keywords": [
+          "survey"
+        ],
+        "owner": "Carla",
+        "deadline": "2026-10-20",
+        "should_flag": false
+      },
+      {
+        "keywords": [
+          "agenda"
+        ],
+        "owner": "Ana",
+        "deadline": "2026-10-29",
+        "should_flag": false
+      }
+    ]
+  },
+  {
+    "id": "ambiguous_deadlines",
+    "meeting_date": "2026-10-19",
+    "transcript": "Jo: We should update the onboarding guide soon. Mike, can you take it?\nMike: Sure, I'll get to it sometime next week.\nJo: And Kim will test the mobile app, probably before release.\nKim: Yes, I'll test it.\nJo: Also someone has to renew the SSL certificate. It expires on November 5.",
+    "tasks": [
+      {
+        "keywords": [
+          "onboarding"
+        ],
+        "owner": "Mike",
+        "deadline": null,
+        "should_flag": true
+      },
+      {
+        "keywords": [
+          "mobile",
+          "test"
+        ],
+        "owner": "Kim",
+        "deadline": null,
+        "should_flag": true
+      },
+      {
+        "keywords": [
+          "ssl",
+          "certificate"
+        ],
+        "owner": null,
+        "deadline": "2026-11-05",
+        "should_flag": true
+      }
+    ]
+  },
+  {
+    "id": "urgent_incident",
+    "meeting_date": "2026-10-19",
+    "transcript": "Lee: Production is down for some users. Nadia, investigate the database errors immediately, this is critical.\nNadia: On it, I'll report back by 3 PM today.\nLee: Omar, prepare the incident report by Friday.\nOmar: Okay.",
+    "tasks": [
+      {
+        "keywords": [
+          "database",
+          "investigate"
+        ],
+        "owner": "Nadia",
+        "deadline": "2026-10-19",
+        "should_flag": false
+      },
+      {
+        "keywords": [
+          "incident report"
+        ],
+        "owner": "Omar",
+        "deadline": "2026-10-23",
+        "should_flag": false
+      }
+    ]
+  },
+  {
+    "id": "small_talk_noise",
+    "meeting_date": "2026-10-19",
+    "transcript": "Ravi: Morning all, how was the weekend?\nSita: Great, went hiking.\nRavi: Nice. Okay, onto business. Sita, can you draft the press release by October 27?\nSita: Sure. Also I'll need the product photos from Leo.\nLeo: I'll upload the photos to the shared drive by October 26.\nRavi: Perfect. Let's also grab lunch Thursday, my treat.",
+    "tasks": [
+      {
+        "keywords": [
+          "press release"
+        ],
+        "owner": "Sita",
+        "deadline": "2026-10-27",
+        "should_flag": false
+      },
+      {
+        "keywords": [
+          "photo"
+        ],
+        "owner": "Leo",
+        "deadline": "2026-10-26",
+        "should_flag": false
+      }
+    ]
+  },
+  {
+    "id": "task_reassigned",
+    "meeting_date": "2026-10-19",
+    "transcript": "Gina: Henry, you take the vendor payment report, due October 30.\nHenry: I'm swamped. Can Iris take it instead?\nIris: Fine, I'll do the vendor payment report by October 30.\nGina: Henry, please then update the inventory sheet by October 22.",
+    "tasks": [
+      {
+        "keywords": [
+          "payment report"
+        ],
+        "owner": "Iris",
+        "deadline": "2026-10-30",
+        "should_flag": false
+      },
+      {
+        "keywords": [
+          "inventory"
+        ],
+        "owner": "Henry",
+        "deadline": "2026-10-22",
+        "should_flag": false
+      }
+    ]
+  },
+  {
+    "id": "decision_heavy",
+    "meeting_date": "2026-10-19",
+    "transcript": "Zoe: We need to decide on the new CRM. Option A is cheaper, Option B has better support.\nEli: I vote for Option B.\nZoe: Agreed, we go with Option B. Eli, please email the vendor to start the contract by October 28.\nEli: Okay.\nZoe: Also, nobody touches the old CRM data until migration is finished.",
+    "tasks": [
+      {
+        "keywords": [
+          "vendor",
+          "email"
+        ],
+        "owner": "Eli",
+        "deadline": "2026-10-28",
+        "should_flag": false
+      }
+    ]
+  }
+]

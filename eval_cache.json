@@ -1,0 +1,132 @@
+{
+ "clear_basic": {
+  "hash": "faafc7f9323d847e10037178d510c472",
+  "stats": {
+   "expected": 3,
+   "found": 2,
+   "matched": 2,
+   "owner": 2,
+   "deadline": 2,
+   "tp": 0,
+   "fp": 0,
+   "fn": 0
+  }
+ },
+ "vague_owners": {
+  "hash": "7d9c5f3ce4e88299823afd2b68db6677",
+  "stats": {
+   "expected": 4,
+   "found": 4,
+   "matched": 4,
+   "owner": 4,
+   "deadline": 4,
+   "tp": 3,
+   "fp": 0,
+   "fn": 0
+  }
+ },
+ "no_tasks": {
+  "hash": "c515f05c86c96ce22b3110b0004de120",
+  "stats": {
+   "expected": 0,
+   "found": 0,
+   "matched": 0,
+   "owner": 0,
+   "deadline": 0,
+   "tp": 0,
+   "fp": 0,
+   "fn": 0
+  }
+ },
+ "multiple_deadlines": {
+  "hash": "8ca47b8f992fda18799570b28e1a7c56",
+  "stats": {
+   "expected": 4,
+   "found": 4,
+   "matched": 4,
+   "owner": 4,
+   "deadline": 4,
+   "tp": 1,
+   "fp": 0,
+   "fn": 0
+  }
+ },
+ "relative_dates": {
+  "hash": "836984e734fee0a132cc6985ed5ad243",
+  "stats": {
+   "expected": 3,
+   "found": 3,
+   "matched": 3,
+   "owner": 3,
+   "deadline": 3,
+   "tp": 0,
+   "fp": 0,
+   "fn": 0
+  }
+ },
+ "ambiguous_deadlines": {
+  "hash": "0d590d6127a9507f086e4a0eb6ff9bc9",
+  "stats": {
+   "expected": 3,
+   "found": 3,
+   "matched": 3,
+   "owner": 3,
+   "deadline": 3,
+   "tp": 3,
+   "fp": 0,
+   "fn": 0
+  }
+ },
+ "urgent_incident": {
+  "hash": "e0385b05d4ae2202227f7ed22541b5c4",
+  "stats": {
+   "expected": 2,
+   "found": 2,
+   "matched": 2,
+   "owner": 2,
+   "deadline": 2,
+   "tp": 0,
+   "fp": 0,
+   "fn": 0
+  }
+ },
+ "small_talk_noise": {
+  "hash": "ee88ff31065e39b69cf7bd84d99216cc",
+  "stats": {
+   "expected": 2,
+   "found": 2,
+   "matched": 2,
+   "owner": 2,
+   "deadline": 2,
+   "tp": 0,
+   "fp": 0,
+   "fn": 0
+  }
+ },
+ "task_reassigned": {
+  "hash": "dc6489e05fdd2f21931b758e1a9e9f38",
+  "stats": {
+   "expected": 2,
+   "found": 2,
+   "matched": 2,
+   "owner": 2,
+   "deadline": 2,
+   "tp": 0,
+   "fp": 0,
+   "fn": 0
+  }
+ },
+ "decision_heavy": {
+  "hash": "5823796aa0bcae3f5a6b9922a369086b",
+  "stats": {
+   "expected": 1,
+   "found": 1,
+   "matched": 1,
+   "owner": 1,
+   "deadline": 1,
+   "tp": 0,
+   "fp": 0,
+   "fn": 0
+  }
+ }
+}
