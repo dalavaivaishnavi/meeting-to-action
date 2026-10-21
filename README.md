@@ -63,3 +63,16 @@ Tested on 10 labeled test meetings (24 tasks) in `tests/cases.json` using `gemin
 - Results can vary slightly between runs because the model is not fully deterministic.
 
 Reproduce with `python eval.py` (needs a Gemini API key).
+
+# Meeting-to-Action Assistant
+
+   **Live demo:** https://meeting-to-action.streamlit.app
+
+   Turns meeting transcripts into summaries, decisions and owner/deadline-tagged tasks, and asks for clarification when something is vague or missing.
+
+   > The demo uses a free Gemini quota, so it may stop working when the daily limit is reached. Please don't enter confidential meeting content.
+
+   ![App screenshot](docs/screenshot.png)
+
+## License
+   MIT. See the LICENSE file.
