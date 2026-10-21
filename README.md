@@ -73,6 +73,7 @@ Reproduce with `python eval.py` (needs a Gemini API key).
    > The demo uses a free Gemini quota, so it may stop working when the daily limit is reached. Please don't enter confidential meeting content.
 
    ![App screenshot](docs/screenshot.png)
+   ![Results](docs/screenshot2.png)
 
 ## License
    MIT. See the LICENSE file.
